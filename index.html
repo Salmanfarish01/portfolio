@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Farish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7af183790.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Sf (1).png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                    <h1>Hi, I'm <span>Salman farish</span><br>From Mangalore , India.</h1>
+                    <br>
+                    <p>Front-End Developer.</p>
+            </div>
+        </div>
+    </div>
+    <!-- -----About---- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ph1-removebg-preview.png">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Graduate of information science and engineering and is eager to work for a company that can help employees develop their professional skills while also beneﬁting the company.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Development</span></li>
+                            <li><span>C++ Programming</span></li>
+                            <li><span>DSA</span></li>
+                            <li><span>React framework</span></li>
+                            <li><span>Machine Learning</span></li>
+                            <li><span>AWS Cloud Computing</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><br><span>Internship | Blueline Computers</span>
+                            <br>Sep 2022 – Oct 2022</li>
+                        </span><br>Machine Learning<br>
+                        <br>During my internship at Blue line Computers, I worked on various machine learning projects, applying 
+                        algorithms and techniques to analyze and interpret large datasets. Collaborated with a team of professionals 
+                        to develop and implement machine learning models, resulting in improved accuracy and efficiency. 
+                        Conducted data pre-processing, feature engineering, and model evaluation to drive insights and decision making
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>AJ INSTITUTE OF ENGINEERING AND TECHNOLOGY </span><br>Bachelor of Engineering, Information Science, CGPA:7.3 </li>
+                            <li><span>VIKAAS PU COLLEGE </span><br>PCMC, POST METRIC (SECOND PUC), Percentage: 76.  </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----services---- -->
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, mollitia!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, mollitia!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, mollitia!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div> -->
+
+<!-- --------portfolio------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>React Login Form</h3>
+                    <p>A responsive React-based web app login form.</p>
+                    <a href=
+                    "https://salmanfarish01.github.io/login_page_React/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Weather web app providing real-time updates with a modern interface using HTML, CSS, and JavaScript</p>
+                    <a href="https://salmanfarish01.github.io/WeatherApp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Drum Kit</h3>
+                    <p>Interactive drumkit web app, built using HTML, CSS, and JavaScript for an immersive rhythm experience.</p>
+                    <a href=" https://salmanfarish01.github.io/DrumKit/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------contact----- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> salman.kulur@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 8073155802</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+                <a href="Salman_Farish.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your EMail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        copyright © SalmanFarish
+    </div>
+</div>
+    <!-- ----javascript---- -->
+
+<script>
+
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzOgcuzX9kEWxzGdyToFfqrcAnX1_Pat8o7jPPr470INaH3MP83SsuqV3TlVnOfTIA0/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
